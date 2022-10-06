@@ -1,0 +1,27 @@
+//javac Prova9.java
+import prog.io.ConsoleOutputManager;
+import prog.io.ConsoleInputManager;
+public class Prova9{
+	public static void main(String[] args)
+	{
+		//s=in.readLine("inserire stringa\n");
+		ConsoleInputManager in = new ConsoleInputManager();
+		ConsoleOutputManager out = new ConsoleOutputManager();
+		int x=5;
+		String s1 = "5";
+		String s =  String.valueOf(x);
+		out.print("\n------------------------------------------------------\n");
+		out.print(s);
+		out.print("                                                     |");
+		out.print("\n------------------------------------------------------\n");
+		x=Integer.parseInt(s1);
+		
+		out.print(s1);
+		out.print("                                                     |");!|"
+		
+		out.print("\n------------------------------------------------------\n");
+		
+		//equals() per confrontare oggetti  come le frazioni
+		
+	}
+}
